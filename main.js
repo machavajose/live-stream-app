@@ -4,7 +4,15 @@ import firebase from 'firebase/app';
 import 'firebase/firestore';
 
 const firebaseConfig = {
-  // your config
+  
+      apiKey: "AIzaSyDNskTxUQpm-ezuED57mV3Kww2IeSfp-V4",
+      authDomain: "live-stream-app-v1.firebaseapp.com",
+      projectId: "live-stream-app-v1",
+      storageBucket: "live-stream-app-v1.appspot.com",
+      messagingSenderId: "660595999627",
+      appId: "1:660595999627:web:bc8de31a7982dff054658e",
+      measurementId: "G-TP19NH8XN7"
+    
 };
 
 if (!firebase.apps.length) {
